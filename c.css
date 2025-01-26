@@ -1,0 +1,28 @@
+body {
+  background-image: url("Airi1.png"); /* Đổi hình nền */
+  background-size: cover; /* Hiển thị toàn bộ màn hình */
+  background-position: center; /* Căn giữa hình nền */
+  background-attachment: fixed; /* Cố định nền */
+}
+
+h1 {
+  text-align: center; /* Căn giữa */
+  font-size: 300%; /* Cỡ chữ */
+}
+
+.container {
+  display: flex; /* Hiển thị nhiều div trên 1 dòng */
+  gap: 10px;
+}
+
+a {
+  color: azure; /* Đổi màu cơ bản */
+}
+
+.glow-text {
+  transition: box-shadow 0.3s ease-in-out; /* Tạo độ trễ khi phát sáng */
+}
+
+.glow-text:hover {
+  text-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* hover: Khi di chuột đến sẽ phát sáng */
+}
